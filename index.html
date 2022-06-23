@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+
+<html lang="es">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Encriptador de Texto</title>
+        <link rel="stylesheet" href="reset.css">
+        <link rel="stylesheet" href="style.css">
+	</head>
+
+	<body>
+		<header>
+			<img src="imagenes/Vector.png" class="logo-principal">
+			<h1>CODIFICADOR DE TEXTO</h1>
+		</header>
+
+		<div class="contenedor-global">
+			<div class="area-input">
+				<textarea id="inputEntrada" autofocus type="text" class="ingreso-texto" placeholder="Ingrese el texto aquí"></textarea>
+
+				<div class="botones-enc-desenc">
+					<p id="msjNO"><img src="imagenes/Vector2.png">Solo letras minúsculas y sin acentos</p>
+						<div class="soloBotones">
+							<input type="button" value="Encriptar" id="BT1" class="boton1" >
+							<input type="button" value="Desencriptar" id="BT2" class="boton2">
+						</div>
+				</div>
+			</div>
+
+			<div class="area-output">
+				<img id="imgMuñeco" src="imagenes/Muñeco.png" class="imagen-muñeco">
+				<textarea id="inputSalida" readonly></textarea>
+				<h2 id="msj1">Ningún mensaje fue encontrado</h2>
+				<p id="msj2">Ingresa el texto que desees encriptar o desencriptar.</p>
+				<input type="button" value="Copiar Texto" id="BT3" class="boton3">
+			</div>
+		</div>
+		
+		<div>
+			<footer>
+				<p class="footer-leyenda">Diseñado por Marcelo Barredo para el Programa ONE - 2022</p>
+			</footer>
+		</div>	
+	</body>
+</html>
+
+<script src="app.js"></script>
+
+
+<!-- "return ((event.charCode >= 97 && event.charCode <= 122) || (event.charCode == 32))" -->
