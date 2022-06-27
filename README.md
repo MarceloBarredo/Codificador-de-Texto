@@ -14,7 +14,7 @@ La letra "u" es convertida para "ufat" <br>
 - No pueden ser utilizados letras con acentos ni caracteres especiales.
 - Es posible convertir una palabra para la versión encriptada también devolver una palabra encriptada para su versión original.
 
-Por ejemplo:
+Por ejemplo: <br>
 "gato" => "gaitober" <br>
 gaitober" => "gato"
 
