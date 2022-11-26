@@ -1,4 +1,4 @@
-# Programa-ONE-Challenge-Sprint-01
+# Codificador de Texto
 
 Proyecto realizado para el Programa ONE - Oracle Next Education. Es un codificador de texto que utiliza llaves de encriptación para reemplazar el texto escrito y su resultado es mostrado en pantalla.
 
